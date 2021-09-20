@@ -12,7 +12,7 @@ url = 'http://challenge.ctf.games:32535/'
 
 wrong_otp = requests.post(url , data={'otp_entry':'133371'} , headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36', 'Cookie':'session=eyJpZCI6IjIyOWQwMWNjLWYxMGItNGYyZC04OTNiLWQ3MDYxNmZiMjFkNCJ9.YUTa3Q.RP9NOVhrzBn6fNOFhpT9QqS1Y-I'})
 for i in range(1,100):
-	api_key = 'a0f02a732388957'
+	api_key = '<your-api-key>'
 	filename = "http://challenge.ctf.games:32535/static/otp.png"
 	overlay=False
 	language='eng'
